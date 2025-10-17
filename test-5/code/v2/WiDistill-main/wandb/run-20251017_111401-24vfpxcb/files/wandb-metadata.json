@@ -1,0 +1,28 @@
+{
+    "os": "Linux-6.8.0-85-generic-x86_64-with-glibc2.35",
+    "python": "3.9.7",
+    "heartbeatAt": "2025-10-17T05:44:02.302473",
+    "startedAt": "2025-10-17T05:44:01.214334",
+    "docker": null,
+    "cpu_count": 28,
+    "cuda": null,
+    "args": [
+        "--dataset=mmfi",
+        "--ipc=50",
+        "--syn_steps=10",
+        "--expert_epochs=2",
+        "--max_start_epoch=15",
+        "--lr_img=1000",
+        "--lr_lr=1e-05",
+        "--model=mmfi_resnet18",
+        "--lr_teacher=0.01",
+        "--buffer_path=/media/Lab208/New Volume/data/buffer",
+        "--data_path=/media/Lab208/New Volume/data/MMFi_Dataset2"
+    ],
+    "state": "running",
+    "program": "/home/Lab208/Desktop/WiDistill-main/distill.py",
+    "codePath": "distill.py",
+    "host": "iict",
+    "username": "Lab208",
+    "executable": "/home/Lab208/conda/envs/widistill/bin/python"
+}

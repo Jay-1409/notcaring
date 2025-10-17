@@ -1,0 +1,45 @@
+
+ 38%|███████████████████████████████████████████████████▏                                                                                 | 10390/27027 [00:01<00:02, 7434.16it/s]
+Hyper-parameters:
+ {'dataset': 'mmfi', 'subset': 'imagenette', 'model': 'mmfi_resnet18', 'ipc': 50, 'eval_mode': 'S', 'num_eval': 1, 'eval_it': 1000, 'epoch_eval_train': 10, 'Iteration': 20000, 'lr_img': 1000.0, 'lr_lr': 1e-05, 'lr_teacher': 0.01, 'lr_init': 0.01, 'batch_real': 256, 'batch_syn': 20, 'batch_train': 256, 'pix_init': 'real', 'dsa': True, 'dsa_strategy': 'color_crop_cutout_flip_scale_rotate', 'data_path': '/media/Lab208/New Volume/data/MMFi_Dataset2', 'buffer_path': '/media/Lab208/New Volume/data/buffer', 'expert_epochs': 2, 'syn_steps': 10, 'max_start_epoch': 15, 'zca': False, 'load_all': False, 'no_aug': False, 'texture': False, 'canvas_size': 2, 'canvas_samples': 1, 'max_files': None, 'max_experts': None, 'force_save': False, 'device': 'cpu', 'im_size': [342, 350], 'dc_aug_param': None, 'dsa_param': <utils.ParamDiffAug object at 0x7f43f0277df0>, '_wandb': {}, 'zca_trans': None, 'distributed': False}
+Evaluation model pool:  ['mmfi_resnet18']
+BUILDING DATASET
+class c = 0: 2079 real images
+class c = 1: 0 real images
+class c = 2: 0 real images
+class c = 3: 0 real images
+class c = 4: 0 real images
+class c = 5: 2079 real images
+class c = 6: 2079 real images
+class c = 7: 2079 real images
+class c = 8: 2079 real images
+class c = 9: 2079 real images
+class c = 10: 2079 real images
+class c = 11: 2079 real images
+class c = 12: 0 real images
+class c = 13: 0 real images
+class c = 14: 2079 real images
+class c = 15: 2079 real images
+class c = 16: 0 real images
+class c = 17: 0 real images
+class c = 18: 0 real images
+class c = 19: 0 real images
+class c = 20: 0 real images
+class c = 21: 0 real images
+class c = 22: 0 real images
+class c = 23: 2079 real images
+class c = 24: 2079 real images
+class c = 25: 2079 real images
+class c = 26: 0 real images
+
+ 93%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████         | 25214/27027 [00:03<00:00, 7399.42it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 27027/27027 [00:03<00:00, 7278.43it/s]
+27027it [00:00, 6286571.33it/s]
+/home/Lab208/Desktop/WiDistill-main/distill.py:146: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646756402876/work/torch/csrc/utils/tensor_new.cpp:210.)
+  label_syn = torch.tensor([np.ones(args.ipc,dtype=np.int_)*i for i in range(num_classes)], dtype=torch.long, requires_grad=False, device=args.device).view(-1) # [0,0,0, 1,1,1, ..., 9,9,9]
+Traceback (most recent call last):
+  File "/home/Lab208/Desktop/WiDistill-main/distill.py", line 513, in <module>
+    main(args)
+  File "/home/Lab208/Desktop/WiDistill-main/distill.py", line 162, in main
+    image_syn.data[c * args.ipc:(c + 1) * args.ipc] = get_images(c, args.ipc).detach().unsqueeze(1).data
+RuntimeError: The expanded size of the tensor (350) must match the existing size (2) at non-singleton dimension 3.  Target sizes: [50, 1, 342, 350].  Tensor sizes: [50, 1, 17, 2]

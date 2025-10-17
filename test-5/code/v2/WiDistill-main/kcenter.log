@@ -1,0 +1,54 @@
+2025-10-17 11:23:15,541 - Loading dataset...
+2025-10-17 11:23:16,021 - Dataset loaded in 0.48 seconds
+2025-10-17 11:23:16,022 - Building dataset...
+2025-10-17 11:23:19,729 - Training data processed in 3.71 seconds
+2025-10-17 11:23:19,756 - Labels organized in 0.03 seconds
+2025-10-17 11:23:19,756 - images_all.shape: torch.Size([27027, 17, 2])
+2025-10-17 11:23:19,757 - class c = 0: 2079 real images
+2025-10-17 11:23:19,757 - class c = 1: 0 real images
+2025-10-17 11:23:19,757 - class c = 2: 0 real images
+2025-10-17 11:23:19,757 - class c = 3: 0 real images
+2025-10-17 11:23:19,757 - class c = 4: 0 real images
+2025-10-17 11:23:19,757 - class c = 5: 2079 real images
+2025-10-17 11:23:19,757 - class c = 6: 2079 real images
+2025-10-17 11:23:19,757 - class c = 7: 2079 real images
+2025-10-17 11:23:19,757 - class c = 8: 2079 real images
+2025-10-17 11:23:19,757 - class c = 9: 2079 real images
+2025-10-17 11:23:19,757 - class c = 10: 2079 real images
+2025-10-17 11:23:19,757 - class c = 11: 2079 real images
+2025-10-17 11:23:19,757 - class c = 12: 0 real images
+2025-10-17 11:23:19,757 - class c = 13: 0 real images
+2025-10-17 11:23:19,757 - class c = 14: 2079 real images
+2025-10-17 11:23:19,757 - class c = 15: 2079 real images
+2025-10-17 11:23:19,757 - class c = 16: 0 real images
+2025-10-17 11:23:19,757 - class c = 17: 0 real images
+2025-10-17 11:23:19,757 - class c = 18: 0 real images
+2025-10-17 11:23:19,757 - class c = 19: 0 real images
+2025-10-17 11:23:19,757 - class c = 20: 0 real images
+2025-10-17 11:23:19,757 - class c = 21: 0 real images
+2025-10-17 11:23:19,757 - class c = 22: 0 real images
+2025-10-17 11:23:19,757 - class c = 23: 2079 real images
+2025-10-17 11:23:19,757 - class c = 24: 2079 real images
+2025-10-17 11:23:19,757 - class c = 25: 2079 real images
+2025-10-17 11:23:19,757 - class c = 26: 0 real images
+2025-10-17 11:23:19,760 - real images channel 0, mean = 228.2648, std = 86.2862
+2025-10-17 11:23:19,762 - real images channel 1, mean = 228.2790, std = 91.9608
+2025-10-17 11:23:19,765 - real images channel 2, mean = 221.9174, std = 86.0023
+2025-10-17 11:23:19,768 - real images channel 3, mean = 235.4729, std = 93.3768
+2025-10-17 11:23:19,770 - real images channel 4, mean = 219.3985, std = 78.0496
+2025-10-17 11:23:19,773 - real images channel 5, mean = 263.0885, std = 80.0935
+2025-10-17 11:23:19,776 - real images channel 6, mean = 233.1914, std = 52.4480
+2025-10-17 11:23:19,778 - real images channel 7, mean = 292.3423, std = 79.5813
+2025-10-17 11:23:19,781 - real images channel 8, mean = 236.5133, std = 36.7153
+2025-10-17 11:23:19,783 - real images channel 9, mean = 299.4417, std = 91.0288
+2025-10-17 11:23:19,786 - real images channel 10, mean = 231.7672, std = 49.9748
+2025-10-17 11:23:19,788 - real images channel 11, mean = 309.2237, std = 32.3346
+2025-10-17 11:23:19,791 - real images channel 12, mean = 288.5351, std = 25.1335
+2025-10-17 11:23:19,793 - real images channel 13, mean = 350.7156, std = 27.7314
+2025-10-17 11:23:19,795 - real images channel 14, mean = 319.2271, std = 49.1386
+2025-10-17 11:23:19,798 - real images channel 15, mean = 389.2340, std = 50.4425
+2025-10-17 11:23:19,800 - real images channel 16, mean = 351.9726, std = 84.1915
+2025-10-17 11:23:19,800 - Applying k-center selection...
+2025-10-17 11:29:46,011 - k-center selection applied in 386.21 seconds
+2025-10-17 11:29:46,014 - k-center subset saved to /media/Lab208/New Volume/data/buffer/kcenter_subset/mmfi
+2025-10-17 11:29:46,014 - Final subset shape: features torch.Size([1300, 17, 2]), labels torch.Size([1300])
