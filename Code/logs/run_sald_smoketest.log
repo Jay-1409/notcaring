@@ -1,0 +1,30 @@
+SALD outer:   0%|          | 0/1 [00:00<?, ?it/s]SALD outer: 100%|██████████| 1/1 [00:00<00:00,  9.50it/s]SALD outer: 100%|██████████| 1/1 [00:00<00:00,  9.48it/s]
+[outer 0] syn_loss 0.043488, grad_norms_mean 7.1092
+Saved synthetic dataset to /media/Lab208/Storage Drive/wifi0sensing/data/MMFI_OUT/D_syn_sald.pth
+Evaluating distilled dataset ...
+Epoch 0: train acc 0.100
+Epoch 1: train acc 0.300
+Epoch 2: train acc 1.000
+Epoch 3: train acc 1.000
+Epoch 4: train acc 1.000
+Epoch 5: train acc 1.000
+Epoch 6: train acc 1.000
+Epoch 7: train acc 1.000
+Epoch 8: train acc 1.000
+Epoch 9: train acc 1.000
+Epoch 10: train acc 1.000
+Epoch 11: train acc 1.000
+Epoch 12: train acc 1.000
+Epoch 13: train acc 1.000
+Epoch 14: train acc 1.000
+Epoch 15: train acc 1.000
+Epoch 16: train acc 1.000
+Epoch 17: train acc 1.000
+Epoch 18: train acc 1.000
+Epoch 19: train acc 1.000
+Epoch 20: train acc 1.000
+Epoch 21: train acc 1.000
+Epoch 22: train acc 1.000
+Epoch 23: train acc 1.000
+Epoch 24: train acc 1.000
+Test accuracy on real test set: 0.1
